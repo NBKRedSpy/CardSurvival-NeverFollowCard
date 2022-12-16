@@ -1,7 +1,7 @@
 # Never Follow Card
 Ever created some clay and had the card move to a stack several pages away?  Tired of having to move that stack to prevent the view from moving over and over?
 
-This mod will never move the view to cards that are created.  The down side is it isn't obvious where the card went.
+This mod will never move the view to cards that are created.  The down side is that the location of the created/dropped card may not be obvious.
 
 # Installation 
 This mod requires the BepInEx mod loader.
