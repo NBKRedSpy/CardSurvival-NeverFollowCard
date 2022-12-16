@@ -3,6 +3,12 @@ Ever created some clay and had the card move to a stack several pages away?  Tir
 
 This mod will never move the view to cards that are created.  The down side is that the location of the created/dropped card may not be obvious.
 
+# Settings
+|Name|Default|Description|
+|--|--|--|
+|MoveOnTakeOutAll|false|If true, will move the view to cards that are removed from a container using the 'Take Out All Items' button|
+
+
 # Installation 
 This mod requires the BepInEx mod loader.
 
@@ -52,6 +58,12 @@ Safe to add and remove from existing saves.
 <a href="https://www.flaticon.com/free-icons/close" title="close icons">Close icons created by Pixel perfect - Flaticon</a>
 
 # Change Log 
+
+## 1.1.0
+* Fixed bookmarks not working
+* Added MoveOnTakeOutAll option
+
 ## 1.0.0  
 * Initial Release
+
 

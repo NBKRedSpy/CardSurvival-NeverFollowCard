@@ -1,4 +1,6 @@
-﻿using BepInEx;
+﻿using System.Runtime.CompilerServices;
+using BepInEx;
+using BepInEx.Configuration;
 using BepInEx.Logging;
 using HarmonyLib;
 using UnityEngine;
@@ -10,10 +12,13 @@ namespace NeverFollowCard
     {
         public static ManualLogSource Log { get; set; }
 
+        public static bool MoveOnTakeOutAll;
+
         private void Awake()
         {
 
             Log = Logger;
+            Config.Bind<bool>("General", nameof(MoveOnTakeOutAll), false, "If true, will move the view to cards that are removed from a container using the 'Take Out All Items' button");
 
             Harmony harmony = new Harmony(MyPluginInfo.PLUGIN_GUID);
             harmony.PatchAll();
