@@ -8,6 +8,12 @@ This mod will never move the view to cards that are created.  The down side is t
 |--|--|--|
 |MoveOnTakeOutAll|false|If true, will move the view to cards that are removed from a container using the 'Take Out All Items' button|
 
+# Changing the Configuration
+All options are contained in the config file which is located at ```<Steam Directory>\steamapps\common\Card Survival Tropical Island\BepInEx\config\NeverFollowCard.cfg```.
+
+The .cfg file will not exist until the mod is installed and then the game is run.
+
+To reset the config, delete the config file.  A new config will be created the next time the game is run.
 
 # Installation 
 This mod requires the BepInEx mod loader.
