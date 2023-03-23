@@ -1,6 +1,3 @@
-# v1.04 Note
-If using the 1.04 beta, use the release with the "Support for v1.04" description.
-
 # Never Follow Card
 Ever created some clay and had the card move to a stack several pages away?  Tired of having to move that stack to prevent the view from moving over and over?
 
