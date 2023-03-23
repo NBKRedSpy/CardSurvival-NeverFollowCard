@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection.Emit;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using HarmonyLib;
@@ -38,15 +39,13 @@ namespace NeverFollowCard
             typeof(string ),
             })]
     [HarmonyPatch("AddCard")]
+    [HarmonyPriority(500)]
 
     internal static class GameManager_AddCard_RemoveMove_Patch
     {
 
-
         public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
         {
-
-            //return instructions;
 
             List<CodeInstruction> code = new(instructions);
 

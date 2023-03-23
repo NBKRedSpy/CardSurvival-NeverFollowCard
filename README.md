@@ -70,6 +70,9 @@ Safe to add and remove from existing saves.
 
 # Change Log 
 
+## 2.0.0
+* Support for v1.04
+* Fixes issue where bookmark shortcuts (number keys) no longer worked.
 ## 1.1.0
 * Fixed bookmarks not working
 * Added MoveOnTakeOutAll option
